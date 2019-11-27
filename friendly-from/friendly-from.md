@@ -48,6 +48,9 @@ from his personal OR work.
 
 ![Friendly From Spoofing](https://github.com/duocircle/Office365-Phishing-Rules/blob/master/assets/img/block-office-365-email-spoofing-friendly-name.jpg)
 
+Exchange would not match DisplayNames using the method discussed in this article. 
+However the following linked worked for me.  Using "message header includes" with From: John Doe
+https://blogs.technet.microsoft.com/eopfieldnotes/2018/02/09/combating-display-name-spoofing/
 
 
 Credit - https://www.itjon.com/blocking-those-obnoxious-phishing-emails-with-spoofed-friendly-display-name-on-office-365/
